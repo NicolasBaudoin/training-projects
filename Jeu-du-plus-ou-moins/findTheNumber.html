@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Find The Number - FTN</title>
+</head>
+<body>
+    <nav><a href="/index.html">Home</a></nav>
+    <div class="mainPage">
+        <label for="test" id="message">Trouver le nombre mystère entre<br> 1 et 99</label><br>
+        <form onsubmit="submitGuess(event)">
+            <input type="number" name="test" id="guess"  placeholder="seul les nombres entre 1 et 99 sont valides">
+            <input type="submit" value="go !" id="valider">
+        </form> 
+        
+        <p class="reaction" id="reponse"></p>
+    </div>
+    <script src="pom.js"></script>
+</body>
+</html>
+
